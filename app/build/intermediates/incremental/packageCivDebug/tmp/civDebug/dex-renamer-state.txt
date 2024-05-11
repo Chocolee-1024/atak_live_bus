@@ -1,4 +1,7 @@
-#Wed May 01 14:48:58 CST 2024
-base.0=C\:\\Users\\ASUS\\Downloads\\atak-civ-sdk-4.2.0.0\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebug\\mergeProjectDexCivDebug\\classes.dex
+#Fri May 03 16:40:14 CST 2024
+base.1=C\:\\Users\\ASUS\\Downloads\\atak-civ-sdk-4.2.0.0\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebug\\mergeProjectDexCivDebug\\classes.dex
+path.1=classes.dex
+base.0=C\:\\Users\\ASUS\\Downloads\\atak-civ-sdk-4.2.0.0\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebug\\mergeExtDexCivDebug\\classes.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

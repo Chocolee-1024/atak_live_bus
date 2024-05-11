@@ -1,38 +1,85 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.atakmap.android.plugintemplate.plugin"
-4    android:versionCode="1"
-5    android:versionName="1.0 (1) - [4.2.0]" >
+4    android:versionCode="1714718672"
+5    android:versionName="1.0 (551e05cc) - [4.2.0]" >
 6
-7    <uses-sdk android:minSdkVersion="21" />
-7-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
-8
-9    <application
-9-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:6:5-17:19
-10        android:allowBackup="false"
-10-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:7:9-36
-11        android:debuggable="true"
-12        android:description="@string/app_desc"
-12-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:10:9-47
-13        android:extractNativeLibs="true"
-13-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:11:9-41
-14        android:icon="@drawable/ic_launcher"
-14-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:8:9-45
-15        android:label="@string/app_name"
-15-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:9:9-41
-16        android:theme="@style/AppTheme" >
-16-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:12:9-40
-17        <meta-data
-18            android:name="plugin-api"
-18-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:13:20-45
-19            android:value="com.atakmap.app@4.2.0.CIV" />
-19-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:13:46-79
-20        <meta-data
-20-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:9-78
-21            android:name="app_desc"
-21-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:20-43
-22            android:value="@string/app_desc" />
-22-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:44-76
-23    </application>
-24
-25</manifest>
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->[com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:6:5-77
+11-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:6:22-74
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:8:5-73
+13-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:8:22-71
+14    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+14-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:9:5-73
+14-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:9:22-70
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:10:5-75
+15-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:12:22-78
+18
+19    <application
+19-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:5-24:19
+20        android:allowBackup="false"
+20-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:15:9-36
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f8e57d601104be2734cb764c55784f54\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:description="@string/app_desc"
+23-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:18:9-47
+24        android:extractNativeLibs="true"
+24-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:19:9-41
+25        android:icon="@drawable/ic_launcher"
+25-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:16:9-45
+26        android:label="@string/app_name"
+26-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:17:9-41
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:20:9-40
+28        <meta-data
+29            android:name="plugin-api"
+29-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:22:20-45
+30            android:value="com.atakmap.app@4.2.0.CIV" />
+30-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:22:46-79
+31        <meta-data
+31-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:23:9-78
+32            android:name="app_desc"
+32-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:23:20-43
+33            android:value="@string/app_desc" />
+33-->C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:23:44-76
+34
+35        <service
+35-->[androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+36            android:name="androidx.room.MultiInstanceInvalidationService"
+36-->[androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+37            android:directBootAware="true"
+37-->[androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+38            android:exported="false" />
+38-->[androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+42            android:authorities="com.atakmap.android.plugintemplate.plugin.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+45    </application>
+46
+47</manifest>

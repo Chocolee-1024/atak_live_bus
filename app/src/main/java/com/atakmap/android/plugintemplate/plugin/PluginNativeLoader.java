@@ -2,7 +2,13 @@
 package com.atakmap.android.plugintemplate.plugin;
 
 import java.io.File;
+
+import android.app.Application;
 import android.content.Context;
+
+import com.atakmap.android.plugintemplate.BluetoothConfig;
+import com.clj.fastble.BleManager;
+import com.clj.fastble.scan.BleScanRuleConfig;
 
 /**
  * Boilerplate code for loading native.
@@ -24,6 +30,16 @@ public class PluginNativeLoader {
                 ndl = context.getPackageManager()
                         .getApplicationInfo(context.getPackageName(),
                                 0).nativeLibraryDir;
+
+                BleScanRuleConfig scanRuleConfig = new BleScanRuleConfig.Builder()
+                        .setAutoConnect(true)
+                        .setScanTimeOut(10000)
+                        .setDeviceMac(BluetoothConfig.BLE_ADDRESSES[0])
+                        .build();
+                BleManager.getInstance().initScanRule(scanRuleConfig);
+                BleManager.getInstance().init((Application)context.getApplicationContext());
+                BleManager.getInstance().setConnectOverTime(1000);
+                BleManager.getInstance().enableLog(true);
             } catch (Exception e) {
                 throw new IllegalArgumentException(
                         "native library loading will fail, unable to grab the nativeLibraryDir from the package name");

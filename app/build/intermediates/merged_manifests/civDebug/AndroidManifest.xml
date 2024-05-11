@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.atakmap.android.plugintemplate.plugin"
-    android:versionCode="1"
-    android:versionName="1.0 (1) - [4.2.0]" >
+    android:versionCode="1714718672"
+    android:versionName="1.0 (551e05cc) - [4.2.0]" >
 
-    <uses-sdk android:minSdkVersion="21" />
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:description="@string/app_desc"
         android:extractNativeLibs="true"
@@ -20,6 +31,17 @@
         <meta-data
             android:name="app_desc"
             android:value="@string/app_desc" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.atakmap.android.plugintemplate.plugin.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

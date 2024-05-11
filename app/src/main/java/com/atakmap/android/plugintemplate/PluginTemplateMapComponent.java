@@ -19,15 +19,14 @@ public class PluginTemplateMapComponent extends DropDownMapComponent {
 
     private PluginTemplateDropDownReceiver ddr;
 
-    public void onCreate(final Context context, Intent intent,
-            final MapView view) {
+    public void onCreate(final Context context, Intent intent, final MapView view) {
 
         context.setTheme(R.style.ATAKPluginTheme);
         super.onCreate(context, intent, view);
         pluginContext = context;
-
-        ddr = new PluginTemplateDropDownReceiver(
-                view, context);
+        // 服務沒有辦法啟動
+        Log.d(TAG, "onCreate!!!!!!!!!!!!!!!!!!");
+        ddr = new PluginTemplateDropDownReceiver(view, context);
 
         Log.d(TAG, "registering the plugin filter");
         DocumentedIntentFilter ddFilter = new DocumentedIntentFilter();

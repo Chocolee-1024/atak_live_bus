@@ -7,17 +7,21 @@ import android.view.View;
 
 import com.atak.plugins.impl.PluginLayoutInflater;
 import com.atakmap.android.maps.MapView;
+import com.atakmap.android.plugintemplate.bluetooth.RcManager;
 import com.atakmap.android.plugintemplate.plugin.R;
 import com.atakmap.android.dropdown.DropDown.OnStateListener;
 import com.atakmap.android.dropdown.DropDownReceiver;
 
 import com.atakmap.coremap.log.Log;
+import com.jeremyliao.liveeventbus.LiveEventBus;
 
-public class PluginTemplateDropDownReceiver extends DropDownReceiver implements
-        OnStateListener {
+import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.schedulers.Schedulers;
 
-    public static final String TAG = PluginTemplateDropDownReceiver.class
-            .getSimpleName();
+public class PluginTemplateDropDownReceiver extends DropDownReceiver implements OnStateListener {
+
+    public static final String TAG = PluginTemplateDropDownReceiver.class.getSimpleName();
 
     public static final String SHOW_PLUGIN = "com.atakmap.android.plugintemplate.SHOW_PLUGIN";
     private final View templateView;
@@ -25,8 +29,7 @@ public class PluginTemplateDropDownReceiver extends DropDownReceiver implements
 
     /**************************** CONSTRUCTOR *****************************/
 
-    public PluginTemplateDropDownReceiver(final MapView mapView,
-            final Context context) {
+    public PluginTemplateDropDownReceiver(final MapView mapView,Context context) {
         super(mapView);
         this.pluginContext = context;
 
@@ -34,6 +37,11 @@ public class PluginTemplateDropDownReceiver extends DropDownReceiver implements
         // In this case, using it is not necessary - but I am putting it here to remind
         // developers to look at this Inflator
         templateView = PluginLayoutInflater.inflate(context, R.layout.main_layout, null);
+        RcManager rcManager = new RcManager();
+        Disposable disposable = Observable.create(e -> {
+            rcManager.onStart(context);
+        }).subscribeOn(Schedulers.io()).subscribe();
+
     }
 
     /**************************** PUBLIC METHODS *****************************/

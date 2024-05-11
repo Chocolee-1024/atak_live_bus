@@ -60,7 +60,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'com.android.tools.build:gradle:4.2.2'
         if(isDevKitEnabled()) {
             classpath "com.atakmap.gradle:atak-gradle-takdev:${takdevVersion}"
         } else {
@@ -130,7 +130,7 @@ def getVersionCode() {
 
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 30
     buildToolsVersion "29.0.2"
 
    dexOptions {
@@ -263,10 +263,14 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 26
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86"
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     if (file("$project.projectDir/../espresso/testSetup.gradle").exists()) {
@@ -279,5 +283,12 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
+    // RxJava3
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.6'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    implementation 'androidx.room:room-rxjava3:2.5.0'
+
+    implementation("com.github.Jasonchenlijian:FastBle:2.4.0")
+    implementation 'io.github.jeremyliao:live-event-bus-x:1.5.0'
 }
 

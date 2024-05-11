@@ -1,62 +1,207 @@
 -- Merging decision tree log ---
 meta-data#plugin-api
-INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:13:9-81
+INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:22:9-81
 	android:value
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:13:46-79
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:22:46-79
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:13:20-45
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:22:20-45
 manifest
-ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fd41805c62d750ebad4d277bbe51b452\rxandroid-3.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.room:room-rxjava3:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3b139fd0bb814e4900c4eb62930c8880\room-rxjava3-2.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:2:1-16:12
+MERGED from [io.github.jeremyliao:live-event-bus-x:1.8.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\30dec3ae1784f2620d81540920bb9c37\live-event-bus-x-1.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0e15ea3e0d601d3f4dbd8edd90754b66\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f892a8f771ac007bf64470e05804d246\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9e8e6d09197a61d74067109387e35fc7\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d76963d743862ac71679bf59cb178187\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ce9a184ef929e0abfb2cecc03845edec\activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7c6056e8f5e28ef59d99fe78bd96111b\lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b29410b758650bfa6e5091c1bad34c41\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\92ad60d328eb946ee4057c7b7a5d0576\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5fe529a0d44623dde362d10d23930b66\sqlite-framework-2.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9458c797855019efda8880502f5521e9\sqlite-2.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\17f451b1c084cdfd65ebefc8b0c00360\lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7a8e29c147c747fd9b125daf8862d6b2\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e11919b9d701cc6ea4ca233a3f620a7c\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f8e57d601104be2734cb764c55784f54\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bcb786ed2ab4b3e88049c7c3da17a36b\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ceba59c42c491cbbb489fbfcde0d8ed5\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f7e7ae174ede49059fdead168d5a82c8\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\05a0e6d29a797da76ddb5deb16ae72ba\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\190e38c5a5f00a3968c8f22f91a81689\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
 	package
 		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:3:5-56
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-19:12
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-26:12
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:11-69
 	tools:ignore
 		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:4:5-44
-application
-ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:6:5-17:19
-	android:extractNativeLibs
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:11:9-41
-	android:label
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:9:9-41
-	android:icon
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:8:9-45
-	android:allowBackup
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:7:9-36
-	android:description
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:10:9-47
-	android:theme
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:12:9-40
-meta-data#app_desc
-ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:9-78
-	android:value
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:44-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:6:5-77
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:20-43
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:11:5-68
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:8:5-73
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:12:5-74
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:8:22-71
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:9:22-70
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:14:5-79
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:13:5-81
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:12:22-78
+application
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:5-24:19
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0e15ea3e0d601d3f4dbd8edd90754b66\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0e15ea3e0d601d3f4dbd8edd90754b66\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f8e57d601104be2734cb764c55784f54\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f8e57d601104be2734cb764c55784f54\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\05a0e6d29a797da76ddb5deb16ae72ba\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\05a0e6d29a797da76ddb5deb16ae72ba\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:19:9-41
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f8e57d601104be2734cb764c55784f54\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:16:9-45
+	android:allowBackup
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:15:9-36
+	android:description
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:18:9-47
+	android:theme
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:20:9-40
+meta-data#app_desc
+ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:23:9-78
+	android:value
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:23:44-76
+	android:name
+		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:23:20-43
 uses-sdk
 INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fd41805c62d750ebad4d277bbe51b452\rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\fd41805c62d750ebad4d277bbe51b452\rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.room:room-rxjava3:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3b139fd0bb814e4900c4eb62930c8880\room-rxjava3-2.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava3:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\3b139fd0bb814e4900c4eb62930c8880\room-rxjava3-2.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.jeremyliao:live-event-bus-x:1.8.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\30dec3ae1784f2620d81540920bb9c37\live-event-bus-x-1.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.jeremyliao:live-event-bus-x:1.8.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\30dec3ae1784f2620d81540920bb9c37\live-event-bus-x-1.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0e15ea3e0d601d3f4dbd8edd90754b66\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0e15ea3e0d601d3f4dbd8edd90754b66\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f892a8f771ac007bf64470e05804d246\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f892a8f771ac007bf64470e05804d246\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9e8e6d09197a61d74067109387e35fc7\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9e8e6d09197a61d74067109387e35fc7\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d76963d743862ac71679bf59cb178187\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d76963d743862ac71679bf59cb178187\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ce9a184ef929e0abfb2cecc03845edec\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ce9a184ef929e0abfb2cecc03845edec\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7c6056e8f5e28ef59d99fe78bd96111b\lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7c6056e8f5e28ef59d99fe78bd96111b\lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b29410b758650bfa6e5091c1bad34c41\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b29410b758650bfa6e5091c1bad34c41\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\92ad60d328eb946ee4057c7b7a5d0576\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\92ad60d328eb946ee4057c7b7a5d0576\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5fe529a0d44623dde362d10d23930b66\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\5fe529a0d44623dde362d10d23930b66\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9458c797855019efda8880502f5521e9\sqlite-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9458c797855019efda8880502f5521e9\sqlite-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\17f451b1c084cdfd65ebefc8b0c00360\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\17f451b1c084cdfd65ebefc8b0c00360\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7a8e29c147c747fd9b125daf8862d6b2\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7a8e29c147c747fd9b125daf8862d6b2\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e11919b9d701cc6ea4ca233a3f620a7c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e11919b9d701cc6ea4ca233a3f620a7c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f8e57d601104be2734cb764c55784f54\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f8e57d601104be2734cb764c55784f54\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bcb786ed2ab4b3e88049c7c3da17a36b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bcb786ed2ab4b3e88049c7c3da17a36b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ceba59c42c491cbbb489fbfcde0d8ed5\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ceba59c42c491cbbb489fbfcde0d8ed5\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f7e7ae174ede49059fdead168d5a82c8\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f7e7ae174ede49059fdead168d5a82c8\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\05a0e6d29a797da76ddb5deb16ae72ba\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\05a0e6d29a797da76ddb5deb16ae72ba\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\190e38c5a5f00a3968c8f22f91a81689\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\190e38c5a5f00a3968c8f22f91a81689\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		ADDED from [com.github.Jasonchenlijian:FastBle:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2ee555480ac3f99efd66cdca40de0021\FastBle-2.4.0\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ASUS\Downloads\atak-civ-sdk-4.2.0.0\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e37cc5a46a3778ee7ff9810ca0204c72\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\063b0a154b6a00346fc9f2bccbeae12e\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
