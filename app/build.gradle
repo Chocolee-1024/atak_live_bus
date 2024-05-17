@@ -289,6 +289,6 @@ dependencies {
     implementation 'androidx.room:room-rxjava3:2.5.0'
 
     implementation("com.github.Jasonchenlijian:FastBle:2.4.0")
-    implementation 'io.github.jeremyliao:live-event-bus-x:1.5.0'
+//    implementation 'io.github.jeremyliao:live-event-bus-x:1.5.0'
 }
 
